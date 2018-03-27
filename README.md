@@ -14,7 +14,7 @@ module "vpn" {
     account_name            = "account-name-here"
     technical_contact       = "name@example.com"
     vpc_id                  = "vpc-1234,vpc-234"
-    vpc_bgp_asn             = "65000"
+    vpn_bgp_asn             = "65000"
     ipsec_target            = "<datacenter public IP here>"
     private_route_table_id  = "rtb-1234"
     public_route_table_id   = "rtb-3456"
@@ -34,7 +34,7 @@ Inputs:
 * `account_name`: Name of the AWS account
 * `technical_contact`: Technical contact. Default `infra-aws@mozilla.com`
 * `vpc_id`: Self explanatory VPC ID
-* `vpc_bgp_asn`: Gateway's BGP Autonomous System Number(ASN). Default `65000`
+* `vpn_bgp_asn`: Gateway's BGP Autonomous System Number(ASN). Default `65000`
 * `ipsec_target`: IP address of the remote end
 * `private_route_table_id`: Route table ID for private vpc
 * `public_route_table_id`: Route table ID for the public vpc
