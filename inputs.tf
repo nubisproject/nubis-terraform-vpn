@@ -22,9 +22,13 @@ variable "vpn_bgp_asn" {
   default = "65000"
 }
 
-variable "public_route_table_id" {}
+variable "public_route_table_id" {
+  default = ""
+}
 
-variable "private_route_table_id" {}
+variable "private_route_table_id" {
+  default = ""
+}
 
 variable "ipsec_target" {}
 
