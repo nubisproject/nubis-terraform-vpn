@@ -25,15 +25,15 @@ resource "aws_vpn_gateway" "vpn_gateway" {
 }
 
 resource "aws_customer_gateway" "customer_gateway" {
-  count = "${var.enabled}"
+  count = "${var.enabled * length(split(",", var.vpn_bgp_asn))}"
 
   lifecycle {
     create_before_destroy = true
   }
 
-  bgp_asn = "${var.vpn_bgp_asn}"
+  bgp_asn = "${element(split(",", var.vpn_bgp_asn), count.index)}"
 
-  ip_address = "${var.ipsec_target}"
+  ip_address = "${element(split(",", var.ipsec_target), count.index)}"
   type       = "ipsec.1"
 
   tags {
@@ -44,15 +44,15 @@ resource "aws_customer_gateway" "customer_gateway" {
 }
 
 resource "aws_vpn_connection" "main" {
-  count = "${var.enabled * length(var.arenas)}"
+  count = "${var.enabled * length(var.arenas) * length(split(",", var.vpn_bgp_asn))}"
 
   lifecycle {
     create_before_destroy = true
   }
 
   vpn_gateway_id      = "${element(aws_vpn_gateway.vpn_gateway.*.id, count.index)}"
-  customer_gateway_id = "${aws_customer_gateway.customer_gateway.id}"
-  type                = "${aws_customer_gateway.customer_gateway.type}"
+  customer_gateway_id = "${element(aws_customer_gateway.customer_gateway.*.id, count.index)}"
+  type                = "${element(aws_customer_gateway.customer_gateway.*.type, count.index)}"
   static_routes_only  = false
 
   tags {

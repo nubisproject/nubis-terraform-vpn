@@ -24,6 +24,16 @@ module "vpn" {
 }
 ```
 
+Caveat on `vpn_bgp_asn` and `ipsec_target` you can set multiple BGP asn and
+multiple IP sec targets. So when calling this module you can do this:
+
+```bash
+vpn_bgp_asn  = "65001,65002"
+ipsec_target = "1.2.3.4,5.6.7.8"
+```
+
+The first BGP ASN corresponds to the first IP sec target and so on and so forth
+
 ## Inputs and Outputs
 
 Inputs:
