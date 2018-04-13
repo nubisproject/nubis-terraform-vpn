@@ -87,8 +87,9 @@ resource "aws_route" "vpn-private" {
   gateway_id             = "${element(aws_vpn_gateway.vpn_gateway.*.id, count.index/3)}"
 }
 
+# NOTE: The number of bgp asn indicate the number of vpn there is
 resource "local_file" "vpn_config" {
-  count    = "${var.enabled * length(var.arenas) * var.output_config}"
-  content  = "${element(concat(aws_vpn_connection.main.*.customer_gateway_configuration, list("")), 0)}"
+  count    = "${var.enabled * length(var.arenas) * var.output_config * length(split(",", var.vpn_bgp_asn))}"
+  content  = "${element(aws_vpn_connection.main.*.customer_gateway_configuration, count.index)}"
   filename = "${path.cwd}/${element(aws_vpn_connection.main.*.id, count.index)}-config-${var.account_name}-${var.region}.txt"
 }
