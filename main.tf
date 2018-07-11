@@ -64,7 +64,7 @@ resource "aws_vpn_connection" "main" {
 }
 
 resource "aws_route" "vpn-public" {
-  count = "${var.enabled * length(var.arenas) * (length(var.public_route_table_id) >= 1 ? 1 : 0)}"
+  count = "${var.enabled * length(var.arenas)}"
 
   lifecycle {
     create_before_destroy = true
@@ -76,7 +76,7 @@ resource "aws_route" "vpn-public" {
 }
 
 resource "aws_route" "vpn-private" {
-  count = "${3 * var.enabled * length(var.arenas) * (length(var.private_route_table_id) >= 1  ? 1 : 0)}"
+  count = "${3 * var.enabled * length(var.arenas)}"
 
   lifecycle {
     create_before_destroy = true
