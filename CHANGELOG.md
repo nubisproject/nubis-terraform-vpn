@@ -1,12 +1,27 @@
 # Change Log
 
+## [v2.2.1](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.2.1) (2018-07-11)
+[Full Changelog](https://github.com/nubisproject/nubis-terraform-vpn/compare/v2.2.0...v2.2.1)
+
+**Closed issues:**
+
+- Terraform error in nubis-deploy [\#16](https://github.com/nubisproject/nubis-terraform-vpn/issues/16)
+
+**Merged pull requests:**
+
+- Avoid using computed resources with 'count' [\#17](https://github.com/nubisproject/nubis-terraform-vpn/pull/17) ([gozer](https://github.com/gozer))
+- Multiple config outputs allowed [\#14](https://github.com/nubisproject/nubis-terraform-vpn/pull/14) ([limed](https://github.com/limed))
+
 ## [v2.2.0](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.2.0) (2018-04-06)
 **Closed issues:**
 
 - Ability to create multiple vpn connection to different Datacenter [\#8](https://github.com/nubisproject/nubis-terraform-vpn/issues/8)
+- Tag v2.2.0 release [\#10](https://github.com/nubisproject/nubis-terraform-vpn/issues/10)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.2.0 release \[skip ci\] [\#12](https://github.com/nubisproject/nubis-terraform-vpn/pull/12) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.2.0 release \[skip ci\] [\#11](https://github.com/nubisproject/nubis-terraform-vpn/pull/11) ([nubis-automation](https://github.com/nubis-automation))
 - Allow multiple bgp asn as well as multiple ipsec target [\#9](https://github.com/nubisproject/nubis-terraform-vpn/pull/9) ([limed](https://github.com/limed))
 - Added more readme info [\#7](https://github.com/nubisproject/nubis-terraform-vpn/pull/7) ([limed](https://github.com/limed))
 - Fix some typos [\#6](https://github.com/nubisproject/nubis-terraform-vpn/pull/6) ([limed](https://github.com/limed))
