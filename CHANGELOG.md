@@ -6,9 +6,12 @@
 **Closed issues:**
 
 - Terraform error in nubis-deploy [\#16](https://github.com/nubisproject/nubis-terraform-vpn/issues/16)
+- Tag v2.2.1 release [\#18](https://github.com/nubisproject/nubis-terraform-vpn/issues/18)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.2.1 release \[skip ci\] [\#20](https://github.com/nubisproject/nubis-terraform-vpn/pull/20) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.2.1 release \[skip ci\] [\#19](https://github.com/nubisproject/nubis-terraform-vpn/pull/19) ([nubis-automation](https://github.com/nubis-automation))
 - Avoid using computed resources with 'count' [\#17](https://github.com/nubisproject/nubis-terraform-vpn/pull/17) ([gozer](https://github.com/gozer))
 - Multiple config outputs allowed [\#14](https://github.com/nubisproject/nubis-terraform-vpn/pull/14) ([limed](https://github.com/limed))
 
