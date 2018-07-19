@@ -1,5 +1,17 @@
 # Change Log
 
+## [v2.3.0](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.3.0) (2018-07-17)
+[Full Changelog](https://github.com/nubisproject/nubis-terraform-vpn/compare/v2.2.1...v2.3.0)
+
+**Closed issues:**
+
+- Tag v2.3.0 release [\#21](https://github.com/nubisproject/nubis-terraform-vpn/issues/21)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#23](https://github.com/nubisproject/nubis-terraform-vpn/pull/23) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#22](https://github.com/nubisproject/nubis-terraform-vpn/pull/22) ([nubis-automation](https://github.com/nubis-automation))
+
 ## [v2.2.1](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.2.1) (2018-07-11)
 [Full Changelog](https://github.com/nubisproject/nubis-terraform-vpn/compare/v2.2.0...v2.2.1)
 
