@@ -1,5 +1,50 @@
 # Change Log
 
+## [v2.4.0](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.4.0) (2019-02-22)
+[Full Changelog](https://github.com/nubisproject/nubis-terraform-vpn/compare/v2.2.0...v2.4.0)
+
+**Closed issues:**
+
+- Tag v2.3.1 release [\#47](https://github.com/nubisproject/nubis-terraform-vpn/issues/47)
+- Tag v2.3.0 release [\#44](https://github.com/nubisproject/nubis-terraform-vpn/issues/44)
+- Tag v2.3.0 release [\#41](https://github.com/nubisproject/nubis-terraform-vpn/issues/41)
+- Tag v2.3.0 release [\#38](https://github.com/nubisproject/nubis-terraform-vpn/issues/38)
+- Tag v2.3.0 release [\#35](https://github.com/nubisproject/nubis-terraform-vpn/issues/35)
+- Tag v2.3.0 release [\#32](https://github.com/nubisproject/nubis-terraform-vpn/issues/32)
+- \[Terraform\] Use latest 1.x AWS provider [\#30](https://github.com/nubisproject/nubis-terraform-vpn/issues/30)
+- Tag v2.3.0 release [\#27](https://github.com/nubisproject/nubis-terraform-vpn/issues/27)
+- Tag v2.3.0 release [\#24](https://github.com/nubisproject/nubis-terraform-vpn/issues/24)
+- Tag v2.3.0 release [\#21](https://github.com/nubisproject/nubis-terraform-vpn/issues/21)
+- Tag v2.2.1 release [\#18](https://github.com/nubisproject/nubis-terraform-vpn/issues/18)
+- Terraform error in nubis-deploy [\#16](https://github.com/nubisproject/nubis-terraform-vpn/issues/16)
+- Tag v2.2.0 release [\#10](https://github.com/nubisproject/nubis-terraform-vpn/issues/10)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v2.3.1 release \[skip ci\] [\#49](https://github.com/nubisproject/nubis-terraform-vpn/pull/49) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.1 release \[skip ci\] [\#48](https://github.com/nubisproject/nubis-terraform-vpn/pull/48) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#46](https://github.com/nubisproject/nubis-terraform-vpn/pull/46) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#45](https://github.com/nubisproject/nubis-terraform-vpn/pull/45) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#43](https://github.com/nubisproject/nubis-terraform-vpn/pull/43) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#42](https://github.com/nubisproject/nubis-terraform-vpn/pull/42) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#40](https://github.com/nubisproject/nubis-terraform-vpn/pull/40) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#39](https://github.com/nubisproject/nubis-terraform-vpn/pull/39) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#37](https://github.com/nubisproject/nubis-terraform-vpn/pull/37) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#36](https://github.com/nubisproject/nubis-terraform-vpn/pull/36) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#34](https://github.com/nubisproject/nubis-terraform-vpn/pull/34) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#33](https://github.com/nubisproject/nubis-terraform-vpn/pull/33) ([nubis-automation](https://github.com/nubis-automation))
+- Pin Terraform AWS provider at 1.x [\#31](https://github.com/nubisproject/nubis-terraform-vpn/pull/31) ([gozer](https://github.com/gozer))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#29](https://github.com/nubisproject/nubis-terraform-vpn/pull/29) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#28](https://github.com/nubisproject/nubis-terraform-vpn/pull/28) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#26](https://github.com/nubisproject/nubis-terraform-vpn/pull/26) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#25](https://github.com/nubisproject/nubis-terraform-vpn/pull/25) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#23](https://github.com/nubisproject/nubis-terraform-vpn/pull/23) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#22](https://github.com/nubisproject/nubis-terraform-vpn/pull/22) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.2.1 release \[skip ci\] [\#20](https://github.com/nubisproject/nubis-terraform-vpn/pull/20) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.2.1 release \[skip ci\] [\#19](https://github.com/nubisproject/nubis-terraform-vpn/pull/19) ([nubis-automation](https://github.com/nubis-automation))
+- Avoid using computed resources with 'count' [\#17](https://github.com/nubisproject/nubis-terraform-vpn/pull/17) ([gozer](https://github.com/gozer))
+- Multiple config outputs allowed [\#14](https://github.com/nubisproject/nubis-terraform-vpn/pull/14) ([limed](https://github.com/limed))
+
 ## [v2.3.1](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.3.1) (2018-08-21)
 [Full Changelog](https://github.com/nubisproject/nubis-terraform-vpn/compare/v2.2.0...v2.3.1)
 
