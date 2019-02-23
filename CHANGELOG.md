@@ -5,13 +5,14 @@
 
 **Closed issues:**
 
-- Tag v2.4.0 release [\#62](https://github.com/nubisproject/nubis-terraform-vpn/issues/62)
+- Tag v2.4.0 release [\#65](https://github.com/nubisproject/nubis-terraform-vpn/issues/65)
 
 ## [v2.4.0](https://github.com/nubisproject/nubis-terraform-vpn/tree/v2.4.0) (2019-02-23)
 [Full Changelog](https://github.com/nubisproject/nubis-terraform-vpn/compare/v2.3.1...v2.4.0)
 
 **Closed issues:**
 
+- Tag v2.4.0 release [\#62](https://github.com/nubisproject/nubis-terraform-vpn/issues/62)
 - Tag v2.4.0 release [\#59](https://github.com/nubisproject/nubis-terraform-vpn/issues/59)
 - Tag v2.4.0 release [\#56](https://github.com/nubisproject/nubis-terraform-vpn/issues/56)
 - Tag v2.4.0 release [\#53](https://github.com/nubisproject/nubis-terraform-vpn/issues/53)
@@ -20,6 +21,8 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.4.0 release \[skip ci\] [\#67](https://github.com/nubisproject/nubis-terraform-vpn/pull/67) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.4.0 release \[skip ci\] [\#66](https://github.com/nubisproject/nubis-terraform-vpn/pull/66) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.4.0 release \[skip ci\] [\#64](https://github.com/nubisproject/nubis-terraform-vpn/pull/64) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.4.0 release \[skip ci\] [\#63](https://github.com/nubisproject/nubis-terraform-vpn/pull/63) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.4.0 release \[skip ci\] [\#61](https://github.com/nubisproject/nubis-terraform-vpn/pull/61) ([nubis-automation](https://github.com/nubis-automation))
